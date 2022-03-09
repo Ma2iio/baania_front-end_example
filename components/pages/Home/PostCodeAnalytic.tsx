@@ -42,7 +42,7 @@ export const PostCodeAnalytic: React.FC = () => {
   useEffect(() => {
     loadPostCode();
   }, []);
-  console.log({ postCodeLists });
+
   return (
     <div className="flex justify-center">
       <div className="flex flex-col">
